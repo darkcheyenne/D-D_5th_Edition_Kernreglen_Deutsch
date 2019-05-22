@@ -1,0 +1,100 @@
+\documentclass[paper=landscape,twocolumn=true,pagesize,DIV=14,fontsize=9pt]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{blindtext}
+\usepackage{mathtools}
+\usepackage[top=0.4in, bottom=0.4in, left=0.4in, right=0.4in]{geometry}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+
+\usepackage{flowfram}
+\Ncolumninarea{4}{\textwidth}{\textheight}{0pt}{0pt}
+
+\begin{document}
+\section{Halbieren}
+Beim halbieren wird immer nach unten gerundet. \(\frac{15}{2}=7\)
+\section{Attribute}
+\begin{description}
+\item[Stärke] misst die physische Kraft
+\item[Geschicklichkeit] misst Geschick und Reflexe eines Charakters
+\item[Konstitution] misst die Widerstandsfähigkeit und Ausdauer eines Charakters
+\item[Intelligenz] misst wie gelehrt eine Person ist, wieviel sie weiss und wieviel sie aus Informationen, die sie erhält, lernen kann. Anmerkung : Intelligenz ist etwas anderes als Weisheit ! Weise Chars müssen nicht unbedingt schlau sein, aber ein hohes Moralisches Empfinden und Verständnis für viele Situationen und Lebensweisen haben. 
+\item[Weisheit] misst wie gut ein Charakter begreift, was um ihn herum geschieht. Er kann damit vielen Zaubern oder sonstigen Verlockungen widerstehen.
+\item[Charisma] misst die Ausstrahlung, die ein Charakter hat
+
+\end{description}
+\section{Kernregeln}
+Verletzt das Schwert des Abenteurers den Drachen oder prallt das Schwert an den eisenharten Schuppen des Drachen hab? Glaub der Oger einen unerhörten Bluff? Kann der Charakter über den reissenden Strom schwimmen? Kann der Charakter den Hauptteil eines Feuerballs ausweichen oder trifft Ihn dessen volle Wucht?
+
+Wenn der Ausgang einer Aktion ungewiss ist verlässt sich das Spiel auf einen Wurf eines D20 (Ein 20-Seitiger Würfel) um den Erfolg oder den Fehlschlag zu bestimmen. 
+
+Für jede Aktion wir ein D20 gewürfelt, die Boni und Mali hinzugerechnet oder abgezogen und dann mit der Ziel-Nummer verglichen.
+\subsection{Bevorteiligung und Benachteiligung}
+Wenn man Bevorteiligt oder Benachteiligt ist, dann würfelt man immer zwei Würfen und liest diese wie folgt:
+\begin{description}
+\item[Bevorteiligung] man nimmt die höhere der beiden Zahlen
+\item[Benachteiligung] man muss die niedrigere der beiden Zahlen wählen
+Wenn man gleichzeitig Bevorteiligt und Benachteiligt ist, dann heben sich die beiden Effekte auf. Aus wenn es mehrere Effekte der gleichen Sorte gibt. 
+Wenn man eine Fähigkeit hat, die einen neu Würfeln lassen kann, so gilt das nur für einen der beiden Würfel
+\end{description}
+\subsection{Fähigkeitsprüfung}
+Eine Fähigkeitsprüfung testet die angeborenen Fähigkeiten und das Training eines Charakters oder eines Monsters beim überwinden einer Herrausforderung.
+Um eine Fähigkeitsprüfung zu machen, roll den D20 und füge den zutreffenden Fähigkeitsmodifikation dazu.
+Ist das Total gleich gross oder grösser als die Zielnummer ist es ein Erfolg.
+\subsection{Kenntnisbonus}
+Ein Charakter kann in gewissen Gebieten besonders geübt sein. Die Fähigkeiten oder Werkzeuge mit denen ein Charakter besonders besonders bewandt ist sind auf dem Charakter-Blatt unter \textit{Proficiencies} aufgelistet. 
+Wenn ein Charakter ein Kenntnisbonus in einer Fähigkeit oder einem Werkzeug hat, so kann zu jedem Wurf des D20 der Kenntnisbonus hinzugefügt werden.
+
+\(D20 + Attributbonus + Kenntnisbonus = Ergebnis\)
+\subsection{Wettstreit}
+Manchmal steht die Fähigkeitsprüfung eines Charakters oder eines Monsters im direkten Wettstreit mit einer anderen Kreatur. In einem solchen Fall spricht man von einem \textit{Wettstreit}. In einem solchen Fall werden die Ergebnisse mit einer Zielnummer, sondern miteinander verglichen. Der Charakter mit der höheren Zahl gewinnt.
+\subsection{Rettungswurf}
+Ein Rettungswurf ist der Versuch einem Zauberspruch, einer Falle, Giften, Krankheiten oder ähnlichem zu wiederstehen.
+Ein Spieler entscheidet sich normalerweise nicht dazu einen Rettungswurf zu machen, er dazu gezwungen weil sein Charakter in Verletzungsgefahr durch etwas ist.
+Ein Rettungswurf ist ein Wurf eines D20 mit dem entsprechende Attributbonus. Rettungswürfe werden durch die Situation mit zusätzlichen Boni, Mali, Bevorteiligung und Benachteiligung belegt.
+Wenn der Rettungswurf höher als die Zielnummer ist, dann wird der Effekt ganz oder teilweise negiert. 
+\section{Kampf}
+\subsection{Ablauf der Kampfbeginns}
+\begin{enumerate} 
+\item Überraschungsrunde \textit{Falls zutreffend}
+\item Positionen festlegen
+\item Initiative würfeln
+\item Spielzüge ausführen \textit{In der initiativ Reihenfolge}
+\item Nächste Runde \textit{Weiter mit Punkt 4}
+\end{enumerate}
+\subsection{Spielzug}
+Jede Runde kann ein Charakter folgende Aktionen durchführen:
+\begin{description}
+\item[Aktion] Angriff, Rennen, sich auf dem Nahkampf lösen, Ausweichen, Helfen, Sucher oder Bereitmachen
+\item[Bewegung] einer Distanz bis zum Laufgeschwindigkeit auf dem Charakterbogen
+\item[Bonus Aktion] Als solche ausgezeichnete Klassenfähigkeiten
+\item[Freie Aktion] Interaktion mit einem Objekt in der Umgebung
+\item[Reaktion] Gewisse Fähigkeiten werden automatisch aktiv wenn ein Ereignis eintritt. Nur eine Reaktion pro Runde. 
+\end{description}
+\subsection{Ablauf eines Angriffs}
+\begin{enumerate} 
+\item Wahl des Ziels
+\item Bestimmung von Modifikatoren \textit{Deckung, Bevorteiligung und Benachteiligung}
+\item Angriffswurf und beim treffen einen Schadenswurf
+\item Initiative würfeln
+\end{enumerate}
+\subsection{Angriffswurf}
+Ein Angriffswurf entscheidet ob das Ziel getroffen wird und wird wie folgt gemacht:
+
+\(D20 + Attributbonus + Kenntnisbonus = Ergebnis\)
+\begin{description}
+\item[Attributbonus] Stärke für Nahkampfwaffen, Geschicklichkeit für Fernkampfwaffen
+\item[Kenntnisbonus] Kenntnisse in der verwendeten Waffe
+\end{description}
+\subsection{Deckung}
+\begin{description}
+\item[Halbdeckung] Tiefe Mauer, halber Baum = Zielnummer + 2
+\item[Dreivierteldeckung] Hohe Mauer, dicker Baum = Zielnummer + 5
+\item[Volle Deckung] Keine direkten Angriffe, aber AoE
+\end{description}
+\subsection{Schadenswurf}
+\(Waffenschaden + Attributbonus + Kenntnisbonus = Ergebnis\)
+
+Der Waffenschaden steht in der Beschreibung der Waffe bzw des Zaubers. Zauber geben individuel an welche Boni es gibt.
+\end{document}
